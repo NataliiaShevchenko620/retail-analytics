@@ -68,7 +68,7 @@ The project is organized into a few IronPython notebooks:
    - *Average weather conditions over year* - Indentify weather patterns for different months
    - *Seasonal changes of average price and total cost for different categories* - Identifying seasonal trends in sales in different categories
 
-7. **Shopping in Istanbul.pdf** - presentation about project and its analytical results
+7. **Retail Analytics in Shopping Malls.pdf** - presentation about project and its analytical results
 
 ## Instructions
 
