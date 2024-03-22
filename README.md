@@ -1,4 +1,4 @@
-# Shopping in Istanbul
+# Retail Analytics in Shopping Malls
 
 ## Project 1
 
