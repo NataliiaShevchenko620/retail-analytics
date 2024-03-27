@@ -56,17 +56,19 @@ The project is organized into a few IronPython notebooks:
    This notebook transforms data from the original data set and ingested data sets in the following way:
    - Merging customer shopping dataset with historical currency exchange rates and weather
    - Calculating price and cost metrics in USD
-   - Calculating age buckets
+   - Calculating age groups
+   - Calculating cost groups
    - Adding calendar columns
    - Renaming and reordering columns
 
 6. **DataAnalytics.ipynb**
    This notebook performs analysis of the transformed data:
-   - *Common Analysis* - Analytics against the whole data set. Test the hypothesis that the price/cost/quantity of products purchased in a single transaction within a certain category depends on one or another attribute of a customer
-   - *Shopping malls traffic* - Checking the hypothesis are there shopping malls that are preferrable by females more than males and vise verca?
-   - *Dependency On Weather Conditions Analysis* - Checking the hypothesis that purchases of shoes depend on weather conditions
+   - *Common Analytics* - Analytics against the whole data set. Preferable payment methods in Lower and Upper Cost Groups. Test the hypothesis that the price/cost/quantity of products purchased in a single transaction within a certain category depends on the age of customers. Test the hypothesis that the price/cost/quantity of products purchased in a single transaction within a certain category depends on the gender of customers
+   - *Shopping malls traffic* - Checking the hypothesis are there shopping malls that are preferable by females more than males and vice versa?
+   - *Season Variance Analysis* - Analysis of dependency between sales activity and a month of a year. Dependency On Weather Conditions Analysis. Checking the hypothesis that purchases of shoes depend on weather conditions
    - *Average weather conditions over year* - Indentify weather patterns for different months
    - *Seasonal changes of average price and total cost for different categories* - Identifying seasonal trends in sales in different categories
+   - *Analyzing seasonal fluctuations in the average price, total cost, and total quantity on a daily level* - Analyzing seasonal fluctuations in the Clothing, Cosmetics, Food & Beverage, Shoes, Souvenir categories
 
 7. **Retail Analytics in Shopping Malls.pdf** - presentation about project and its analytical results
 
