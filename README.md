@@ -78,7 +78,7 @@ To run the analysis, follow these steps:
 
 1. Clone the repository
 2. Update configuration (if needed) in **RandomDataGeneration.ipynb** and regenerate source data with embedded patterns
-3. (optional) Obtain API keys from https://docs.openexchangerates.org and https://www.visualcrossing.com and store them in *api_keys.py* file in the root folder under *openexchangerates_api_key* and *visualcrossing_api_key* names respectively
+3. (optional) Obtain API keys from https://docs.openexchangerates.org and https://www.visualcrossing.com and store them in *api_keys.py* file in the root folder under *openexchangerates_api_key* and *visualcrossing_api_key* names respectively to re-run **CurrencyExchangeAPI.ipynb** and **WeatherAPI.ipynb**. This is not required since historical data for currency exchange rates or weather is not changed
 4. Run **DataPreparation.ipynb** to re-assembly the main data set for analytics
 5. Run **DataAnalytics.ipynb** to explore existing analytics and discover new patterns in the shopping data
 
