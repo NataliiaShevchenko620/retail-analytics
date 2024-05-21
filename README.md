@@ -63,12 +63,30 @@ The project is organized into a few IronPython notebooks:
 
 6. **DataAnalytics.ipynb**
    This notebook performs analysis of the transformed data:
+
    - *Common Analytics* - Analytics against the whole data set. Preferable payment methods in Lower and Upper Cost Groups. Test the hypothesis that the price/cost/quantity of products purchased in a single transaction within a certain category depends on the age of customers. Test the hypothesis that the price/cost/quantity of products purchased in a single transaction within a certain category depends on the gender of customers
+
+   ![common_analytics](Images/common_analytics.png)
+
    - *Shopping malls traffic* - Checking the hypothesis are there shopping malls that are preferable by females more than males and vice versa?
+   
+   ![malls_traffic](Images/malls_traffic.png)
+   
    - *Season Variance Analysis* - Analysis of dependency between sales activity and a month of a year. Dependency On Weather Conditions Analysis. Checking the hypothesis that purchases of shoes depend on weather conditions
+   
+   ![seasonal_variance](Images/seasonal_variance.png)
+   
    - *Average weather conditions over year* - Indentify weather patterns for different months
+   
+   ![average_weather_conditions](Images/average_weather_conditions.png)
+   
    - *Seasonal changes of average price and total cost for different categories* - Identifying seasonal trends in sales in different categories
+   
+   ![seasonal_changes](Images/seasonal_changes.png)
+   
    - *Analyzing seasonal fluctuations in the average price, total cost, and total quantity on a daily level* - Analyzing seasonal fluctuations in the Clothing, Cosmetics, Food & Beverage, Shoes, Souvenir categories
+
+   ![average_price](Images/average_price.png)
 
 7. **Retail Analytics in Shopping Malls.pdf** - presentation about project and its analytical results
 
